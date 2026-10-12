@@ -1,6 +1,6 @@
 #include <Arduino.h>
 
-int led = 5;
+int led = 7;
 
 
 void setup() {
@@ -11,7 +11,7 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   digitalWrite(led, HIGH);
-  delay(200);    // milliseconds
+  delay(500);    // milliseconds
   digitalWrite(led, LOW);
-  delay(800);     
+  delay(500);     
 }

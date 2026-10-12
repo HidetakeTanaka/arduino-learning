@@ -1,6 +1,6 @@
 #include <Arduino.h>
 
-int led = 13;
+int led = LED_BUILTIN;   // Digital pin 13 = LED_BUILDIN = L
 
 
 void setup() {
@@ -11,7 +11,7 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   digitalWrite(led, HIGH);
-  delay(1000);    // milliseconds
+  delay(500);    // milliseconds
   digitalWrite(led, LOW);
-  delay(2000);     
+  delay(500);     
 }
