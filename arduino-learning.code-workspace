@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../../Arduino/MyBlink"
+		},
+		{
+			"name": "arduino-learning",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
